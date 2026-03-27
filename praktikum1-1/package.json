@@ -1,0 +1,24 @@
+{
+  "name": "praktikum3-1",
+  "version": "1.0.0",
+  "description": "Membuat Aplikasi Command Line Menggunakan Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/yargs": "^17.0.35",
+    "yargs": "^18.0.0"
+  },
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^25.5.0",
+    "@types/valid-url": "^1.0.7",
+    "axios": "^1.13.6",
+    "html-table-to-json": "^1.0.0",
+    "valid-url": "^1.0.9"
+  }
+}
