@@ -1,0 +1,25 @@
+{
+  "name": "mhs-endpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start:dev": "nodemon dist/index.js",
+    "build:dev": "tsc && cp -r src/resources dist/resources",
+    "dev": "concurrently \"npm:build:dev\" \"npm:start:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
