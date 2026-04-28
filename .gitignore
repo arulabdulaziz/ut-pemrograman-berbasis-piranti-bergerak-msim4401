@@ -1,1 +1,15 @@
 node_modules/
+.DS_Store
+dist/
+build/
+*.log
+*.env
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+*.zip
+*.tar.gz
+*.tgz
+*.exe
